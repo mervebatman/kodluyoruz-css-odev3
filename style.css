@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  list-style-type: none;
+  float: right;
+}
+
+.profil  {
+  width: 32px;
+  height: 32px;
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  border-radius: 50%;
+}
+
+.profil:hover {
+  border-radius: 50%;
+  box-shadow: 0 1px 0 rgb(0 0 0 / 15%);
+  cursor: pointer;
+}
+
+.products {
+  width: 24px;
+  height: 24px;
+  position: fixed;
+  right: 75px;
+  top: 15px;
+}
+
+.products:hover{
+  opacity: 1;
+  background-color: rgba(60,64,67,0.08);
+  font-size: 25px;
+  border-radius: 25%;
+}
+
+.navbara {
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+}
+
+#images {
+  position: fixed;
+  right: 125px;
+  top: 21px;
+}
+
+#gmail {
+  position: fixed;
+  right: 190px;
+  top: 21px;
+}
+
+.img {
+  position: fixed;
+  top: 80px;
+  left: 550px;
+}
+
+.search-box {
+  position: fixed;
+  top: 275px;
+  left: 400px;
+  width: 480px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.search-box {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  margin-top: -77px;
+  width: 582px;
+  background-position: right;
+}
+
+.search-box:hover {
+box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+.search {
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  left: 400px;
+  top: 200px;
+}
+
+.text-box {
+  position: fixed;
+  left: 440px;
+  width: 480px;
+  height: 40px;
+  border: none;
+}
+
+.mic {
+  width: 20px;
+  height: 20px;
+  position: fixed;
+  right: 400px;
+  top: 210px;
+}
+
+.buttons {
+  border: 1px solid #f8f8fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#btn1 {
+  position: fixed;
+  top: 260px;
+  left: 500px;
+}
+
+#btn2 {
+  position: fixed;
+  top: 260px;
+  left: 650px;
+}
+
+.footer {
+  background-color: #f2f2f2;
+}
+
+.footera {
+  background-color: #f2f2f2;
+  list-style-type: none;
+  float: left;
+  color: #70757a;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 20px;
+  bottom: 0;
+}
+
+.footerul {
+  list-style-type: none;
+}
+#a1 {
+  position: fixed;
+  left: 10px;
+}
+
+#a2 {
+  position: fixed;
+  left: 90px;
+}
+
+#a3 {
+  position: fixed;
+  left: 170px;
+}
+
+#a4 {
+  position: fixed;
+  left: 250px;
+}
+
+#a5 {
+  position: fixed;
+  right: 170px;
+}
+
+#a6 {
+  position: fixed;
+  right: 90px;
+}
+
+#a7 {
+  position: fixed;
+  right: 10px;
+}
